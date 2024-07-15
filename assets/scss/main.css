@@ -18,4 +18,31 @@
 
 html {
   font-family: "Urbanist Regular";
+}
+
+header {
+  margin: 1em 12em 0 10em;
+}
+
+.navBorder {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  border: 1px solid black;
+  border-radius: 100px;
+  padding: 0.2em 0 0.2em 0;
+}
+.navBorder a {
+  text-decoration: none;
+  color: black;
+  padding-right: 2em;
+}
+.navBorder a:hover {
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.Logo {
+  padding: 0 15em 0 0.2em;
 }/*# sourceMappingURL=main.css.map */
