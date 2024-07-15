@@ -267,7 +267,8 @@ form ::placeholder {
   justify-items: space-around;
 }
 .choseCarCards .CarOneText .PricingOne span {
-  font-weight: bold;
+  font-family: "Urbanist Bold";
+  font-size: 45px;
 }
 .choseCarCards .CarOneText img {
   background-color: white;
@@ -314,8 +315,8 @@ form ::placeholder {
   flex-direction: row;
 }
 .choseCarCards .CarTwoText .PricingTwo span {
-  font-weight: bold;
-  font-size: medium;
+  font-family: "Urbanist Bold";
+  font-size: 45px;
 }
 .choseCarCards .CarTwoText img {
   background-color: white;
@@ -360,9 +361,12 @@ form ::placeholder {
 .choseCarCards .CarThree .CarThreeText .PricingThree {
   display: flex;
   flex-direction: row;
+  justify-content: space-between;
+  width: 20px;
 }
 .choseCarCards .CarThree .CarThreeText .PricingThree span {
-  font-weight: bold;
+  font-family: "Urbanist Bold";
+  font-size: 45px;
 }
 .choseCarCards .CarThree .CarThreeText img {
   background-color: white;

@@ -49,6 +49,10 @@ header {
 .Hero {
   margin: 0 15em 0 15em;
   height: 100vh;
+  background-image: url("/assets/img/Ilustration_Header\ 1.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 
   h1 {
     font-family: "Urbanist Bold";
@@ -72,7 +76,10 @@ header {
     border-radius: 100px;
     padding: 14px 90px 14px 90px;
     box-shadow: inset rgba(140, 139, 139, 0.359) -2px -3px 0 0.5px;
+    display: flex;
+    align-items: center;
   }
+
   .menuTwo {
     font-family: "Urbanist Bold";
     font-size: small;
@@ -291,7 +298,8 @@ form {
       justify-items: space-around;
 
       span {
-        font-weight: bold;
+        font-family: "Urbanist Bold";
+        font-size: 45px;
       }
     }
 
@@ -347,8 +355,8 @@ form {
       flex-direction: row;
 
       span {
-        font-weight: bold;
-        font-size: medium;
+        font-family: "Urbanist Bold";
+        font-size: 45px;
       }
     }
 
@@ -401,9 +409,12 @@ form {
       .PricingThree {
         display: flex;
         flex-direction: row;
+        justify-content: space-between;
+        width: 20px;
 
         span {
-          font-weight: bold;
+          font-family: "Urbanist Bold";
+          font-size: 45px;
         }
       }
 

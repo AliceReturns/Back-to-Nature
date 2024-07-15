@@ -46,6 +46,10 @@ header {
 .Hero {
   margin: 0 15em 0 15em;
   height: 100vh;
+  background-image: url("/assets/img/Ilustration_Header 1.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
 .Hero h1 {
   font-family: "Urbanist Bold";
@@ -68,6 +72,8 @@ header {
   border-radius: 100px;
   padding: 14px 90px 14px 90px;
   box-shadow: inset rgba(140, 139, 139, 0.359) -2px -3px 0 0.5px;
+  display: flex;
+  align-items: center;
 }
 .dropDownMenu .menuTwo {
   font-family: "Urbanist Bold";
@@ -267,7 +273,8 @@ form ::placeholder {
   justify-items: space-around;
 }
 .choseCarCards .CarOneText .PricingOne span {
-  font-weight: bold;
+  font-family: "Urbanist Bold";
+  font-size: 45px;
 }
 .choseCarCards .CarOneText img {
   background-color: white;
@@ -314,8 +321,8 @@ form ::placeholder {
   flex-direction: row;
 }
 .choseCarCards .CarTwoText .PricingTwo span {
-  font-weight: bold;
-  font-size: medium;
+  font-family: "Urbanist Bold";
+  font-size: 45px;
 }
 .choseCarCards .CarTwoText img {
   background-color: white;
@@ -360,9 +367,12 @@ form ::placeholder {
 .choseCarCards .CarThree .CarThreeText .PricingThree {
   display: flex;
   flex-direction: row;
+  justify-content: space-between;
+  width: 20px;
 }
 .choseCarCards .CarThree .CarThreeText .PricingThree span {
-  font-weight: bold;
+  font-family: "Urbanist Bold";
+  font-size: 45px;
 }
 .choseCarCards .CarThree .CarThreeText img {
   background-color: white;
