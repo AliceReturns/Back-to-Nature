@@ -219,7 +219,8 @@ form ::placeholder {
   font-size: 30px;
   padding-bottom: 0.5em;
 }
-.Wahl p {
+
+.Wahl > p {
   text-align: center;
   justify-content: center;
   margin: 0 26em 0 26em;
@@ -260,18 +261,20 @@ form ::placeholder {
   width: 310px;
   height: 350px;
 }
-.choseCarCards .CarOneText .BeachPrice {
+.choseCarCards .CarOneText .PricingOne {
   display: flex;
   flex-direction: row;
-  justify-self: center;
-  align-items: start;
+  justify-items: space-around;
 }
-.choseCarCards .CarOneText .BeachPrice p {
-  font-size: small;
+.choseCarCards .CarOneText .PricingOne span {
+  font-weight: bold;
 }
 .choseCarCards .CarOneText img {
   background-color: white;
   border-radius: 100px;
+}
+.choseCarCards .CarOneText ul {
+  padding-top: 1em;
 }
 .choseCarCards .CarOneText li {
   list-style: none;
@@ -306,9 +309,20 @@ form ::placeholder {
   width: 310px;
   height: 350px;
 }
+.choseCarCards .CarTwoText .PricingTwo {
+  display: flex;
+  flex-direction: row;
+}
+.choseCarCards .CarTwoText .PricingTwo span {
+  font-weight: bold;
+  font-size: medium;
+}
 .choseCarCards .CarTwoText img {
   background-color: white;
   border-radius: 100px;
+}
+.choseCarCards .CarTwoText ul {
+  padding-top: 1em;
 }
 .choseCarCards .CarTwoText li {
   list-style: none;
@@ -343,9 +357,19 @@ form ::placeholder {
   width: 310px;
   height: 350px;
 }
+.choseCarCards .CarThree .CarThreeText .PricingThree {
+  display: flex;
+  flex-direction: row;
+}
+.choseCarCards .CarThree .CarThreeText .PricingThree span {
+  font-weight: bold;
+}
 .choseCarCards .CarThree .CarThreeText img {
   background-color: white;
   border-radius: 100px;
+}
+.choseCarCards .CarThree .CarThreeText ul {
+  padding-top: 1em;
 }
 .choseCarCards .CarThree .CarThreeText li {
   list-style: none;

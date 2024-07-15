@@ -239,13 +239,13 @@ form {
     font-size: 30px;
     padding-bottom: 0.5em;
   }
+}
 
-  p {
-    text-align: center;
-    justify-content: center;
-    margin: 0 26em 0 26em;
-    padding-bottom: 4em;
-  }
+.Wahl > p {
+  text-align: center;
+  justify-content: center;
+  margin: 0 26em 0 26em;
+  padding-bottom: 4em;
 }
 
 .choseCarCards {
@@ -285,20 +285,23 @@ form {
     width: 310px;
     height: 350px;
 
-    .BeachPrice {
+    .PricingOne {
       display: flex;
       flex-direction: row;
-      justify-self: center;
-      align-items: start;
+      justify-items: space-around;
 
-      p {
-        font-size: small;
+      span {
+        font-weight: bold;
       }
     }
 
     img {
       background-color: white;
       border-radius: 100px;
+    }
+
+    ul {
+      padding-top: 1em;
     }
 
     li {
@@ -339,9 +342,23 @@ form {
     width: 310px;
     height: 350px;
 
+    .PricingTwo {
+      display: flex;
+      flex-direction: row;
+
+      span {
+        font-weight: bold;
+        font-size: medium;
+      }
+    }
+
     img {
       background-color: white;
       border-radius: 100px;
+    }
+
+    ul {
+      padding-top: 1em;
     }
 
     li {
@@ -381,9 +398,22 @@ form {
       width: 310px;
       height: 350px;
 
+      .PricingThree {
+        display: flex;
+        flex-direction: row;
+
+        span {
+          font-weight: bold;
+        }
+      }
+
       img {
         background-color: white;
         border-radius: 100px;
+      }
+
+      ul {
+        padding-top: 1em;
       }
 
       li {
