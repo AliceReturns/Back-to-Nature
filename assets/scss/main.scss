@@ -103,6 +103,10 @@ header {
   }
 }
 
+main {
+  padding-bottom: 6em;
+}
+
 .warumMieten {
   padding-bottom: 5em;
   justify-content: space-around;
@@ -220,5 +224,99 @@ form {
 
   ::placeholder {
     color: white;
+  }
+}
+
+.Wahl {
+  h2 {
+    text-align: center;
+    justify-items: center;
+    font-family: "Urbanist Bold";
+    font-size: 30px;
+    padding-bottom: 0.5em;
+  }
+
+  p {
+    text-align: center;
+    justify-content: center;
+    margin: 0 26em 0 26em;
+    padding-bottom: 4em;
+  }
+
+  .choseCarCards {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 20px;
+
+    .CarOne {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      background-color: #f0cea0;
+      border: solid 1px black;
+      border-radius: 50px;
+      padding: 15px 5px 15px 5px;
+      box-shadow: inset rgba(140, 139, 139, 0.359) -2px -3px 0 0.5px;
+    }
+
+    .CarTwo {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      background-color: #f0cea0;
+      border: solid 1px black;
+      border-radius: 50px;
+      padding: 15px 5px 15px 5px;
+      box-shadow: inset rgba(140, 139, 139, 0.359) -2px -3px 0 0.5px;
+    }
+    .CarThree {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      background-color: #f0cea0;
+      border: solid 1px black;
+      border-radius: 50px;
+      padding: 15px 5px 15px 5px;
+      box-shadow: inset rgba(140, 139, 139, 0.359) -2px -3px 0 0.5px;
+    }
+  }
+}
+
+footer {
+  padding: 2em 0 4em 0;
+  border-top: solid 1px black;
+  text-align: center;
+
+  .navFooter {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 2em 20em 2em 20em;
+
+    a {
+      text-decoration: none;
+      color: black;
+    }
+
+    a:hover {
+      font-weight: bold;
+      text-decoration: underline;
+    }
+  }
+  .socialLinks {
+    img {
+      padding: 0 0.5em 0 0.5em;
+    }
+  }
+
+  .Impressum {
+    padding-top: 2em;
+
+    a {
+      font-size: smaller;
+      text-decoration: none;
+      color: black;
+    }
   }
 }
