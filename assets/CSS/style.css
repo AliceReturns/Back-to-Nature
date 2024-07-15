@@ -260,12 +260,14 @@ form ::placeholder {
   width: 310px;
   height: 350px;
 }
-.choseCarCards .CarOneText .PricingOne {
+.choseCarCards .CarOneText .BeachPrice {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
-  width: 250px;
-  height: 30px;
+  justify-self: center;
+  align-items: start;
+}
+.choseCarCards .CarOneText .BeachPrice p {
+  font-size: small;
 }
 .choseCarCards .CarOneText img {
   background-color: white;
@@ -304,13 +306,6 @@ form ::placeholder {
   width: 310px;
   height: 350px;
 }
-.choseCarCards .CarTwoText .PricingTwo {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  width: 250px;
-  height: 30px;
-}
 .choseCarCards .CarTwoText img {
   background-color: white;
   border-radius: 100px;
@@ -347,13 +342,6 @@ form ::placeholder {
   box-shadow: inset rgba(140, 139, 139, 0.359) -2px -3px 0 0.5px;
   width: 310px;
   height: 350px;
-}
-.choseCarCards .CarThree .CarThreeText .PricingThree {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  width: 250px;
-  height: 30px;
 }
 .choseCarCards .CarThree .CarThreeText img {
   background-color: white;
