@@ -246,49 +246,95 @@ form {
     margin: 0 26em 0 26em;
     padding-bottom: 4em;
   }
+}
 
-  .choseCarCards {
+.choseCarCards {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 20px;
+
+  .CarOne {
     display: flex;
-    flex-direction: row;
-    justify-content: center;
-    gap: 20px;
+    flex-direction: column;
+  }
 
-    .CarOne {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      background-color: #f0cea0;
+  .CarOneIMG {
+    background-color: white;
+    border: solid 1px black;
+    border-radius: 50px 50px 0 0;
+  }
+
+  .CarOneText {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f0cea0;
+    border: solid 1px black;
+    border-radius: 0 0 50px 50px;
+    padding: 15px 5px 15px 5px;
+    box-shadow: inset rgba(140, 139, 139, 0.359) -2px -3px 0 0.5px;
+    width: 300px;
+    height: 400px;
+
+    li {
+      list-style: none;
+    }
+  }
+
+  .CarTwo {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .CarTwoIMG {
+    background-color: white;
+    border: solid 1px black;
+    border-radius: 50px 50px 0 0;
+  }
+
+  .CarTwoText {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f0cea0;
+    border: solid 1px black;
+    border-radius: 0 0 50px 50px;
+    padding: 15px 5px 15px 5px;
+    box-shadow: inset rgba(140, 139, 139, 0.359) -2px -3px 0 0.5px;
+    width: 300px;
+    height: 400px;
+
+    li {
+      list-style: none;
+    }
+  }
+
+  .CarThree {
+    display: flex;
+    flex-direction: column;
+
+    .CarThreeIMG {
+      background-color: white;
       border: solid 1px black;
-      border-radius: 50px;
-      padding: 15px 5px 15px 5px;
-      box-shadow: inset rgba(140, 139, 139, 0.359) -2px -3px 0 0.5px;
-      width: 250px;
-      height: 320px;
+      border-radius: 50px 50px 0 0;
     }
 
-    .CarTwo {
+    .CarThreeText {
       display: flex;
       flex-direction: column;
       align-items: center;
       background-color: #f0cea0;
       border: solid 1px black;
-      border-radius: 50px;
-      padding: 15px 5px 15px 5px;
-      box-shadow: inset rgba(140, 139, 139, 0.359) -2px -3px 0 0.5px;
-      width: 250px;
-      height: 320px;
-    }
-    .CarThree {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      background-color: #f0cea0;
-      border: solid 1px black;
-      border-radius: 50px;
+      border-radius: 0 0 50px 50px;
       padding: 15px 5px 15px 5px;
       box-shadow: inset rgba(140, 139, 139, 0.359) -2px -3px 0 0.5px;
       width: 300px;
       height: 400px;
+
+      li {
+        list-style: none;
+      }
     }
   }
 
