@@ -260,6 +260,30 @@ form ::placeholder {
   padding: 15px 5px 15px 5px;
   box-shadow: inset rgba(140, 139, 139, 0.359) -2px -3px 0 0.5px;
 }
+.Wahl .choseCarButtonWhite {
+  font-family: "Urbanist Bold";
+  font-size: small;
+  color: rgb(0, 0, 0);
+  align-self: center;
+  text-align: center;
+  background-color: #ffffff;
+  border: solid 1px black;
+  border-radius: 100px;
+  padding: 10px 30px 10px 30px;
+  box-shadow: inset rgba(140, 139, 139, 0.359) -2px -3px 0 0.5px;
+}
+.Wahl .choseCarButtonColor {
+  font-family: "Urbanist Bold";
+  font-size: small;
+  color: rgb(255, 255, 255);
+  align-self: center;
+  text-align: center;
+  background-color: #a9cba6;
+  border: solid 1px black;
+  border-radius: 100px;
+  padding: 10px 30px 10px 30px;
+  box-shadow: inset rgba(140, 139, 139, 0.359) -2px -3px 0 0.5px;
+}
 
 footer {
   padding: 2em 0 4em 0;
