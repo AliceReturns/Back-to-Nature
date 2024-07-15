@@ -1,3 +1,23 @@
+@font-face {
+  font-family: "Urbanist Regular";
+  src: url(../fonts/Urbanist-Regular.ttf);
+}
+@font-face {
+  font-family: "Urbanist Bold";
+  src: url(../fonts/Urbanist-Bold.ttf);
+}
+@font-face {
+  font-family: "Urbanist Thin";
+  src: url(../fonts/Urbanist-Thin.ttf);
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
+html {
+  font-family: "Urbanist Regular";
+}
 
 /*# sourceMappingURL=style.css.map */
