@@ -6,10 +6,6 @@
   font-family: "Urbanist Bold";
   src: url(../fonts/Urbanist-Bold.ttf);
 }
-@font-face {
-  font-family: "Urbanist Thin";
-  src: url(../fonts/Urbanist-Thin.ttf);
-}
 * {
   margin: 0;
   padding: 0;
@@ -49,12 +45,12 @@ header {
 
 .Hero {
   margin: 0 15em 0 15em;
-  padding-bottom: 10em;
+  height: 100vh;
 }
 .Hero h1 {
   font-family: "Urbanist Bold";
   font-size: 90px;
-  padding: 3em 5em 1em 0;
+  padding: 3em 5em 2em 0;
   line-height: 0.7em;
 }
 
@@ -84,17 +80,18 @@ header {
   margin: 0 2em 0 2em;
   box-shadow: inset rgba(140, 139, 139, 0.359) -2px -3px 0 0.5px;
 }
-.dropDownMenu .menuThree {
+.dropDownMenu .menuThree input {
   font-family: "Urbanist Bold";
   font-size: small;
-  color: white;
-  align-self: center;
-  text-align: center;
   background-color: #a9cba6;
   border: solid 1px black;
   border-radius: 100px;
-  padding: 10px 30px 10px 30px;
+  padding: 10px 35px 10px 35px;
   box-shadow: inset rgba(140, 139, 139, 0.359) -2px -3px 0 0.5px;
+}
+.dropDownMenu .menuThree ::placeholder {
+  color: white;
+  text-align: center;
 }
 
 main {
@@ -106,6 +103,7 @@ main {
   justify-content: space-around;
   background-image: url(../img/Vector.png);
   background-repeat: no-repeat;
+  height: 100vh;
 }
 .warumMieten h2 {
   text-align: center;
@@ -117,16 +115,21 @@ main {
 .warumMieten p {
   text-align: center;
   justify-content: center;
-  margin: 0 20em 0 20em;
-  padding-bottom: 4em;
+  padding: 0 4.5em 4em 4em;
 }
 
 .infoCards {
   display: flex;
   flex-direction: row;
-  align-content: center;
   gap: 30px;
   margin: 0 5em 0 5em;
+}
+.infoCards h3 {
+  padding-bottom: 1em;
+  font-size: medium;
+}
+.infoCards p {
+  font-size: small;
 }
 .infoCards .infoOne {
   display: flex;
@@ -134,12 +137,10 @@ main {
   align-items: center;
   background-color: #fdfaf5;
   border: solid 1px black;
-  border-radius: 50px;
-  padding: 15px 5px 15px 5px;
+  border-radius: 20px;
   box-shadow: inset rgba(140, 139, 139, 0.359) -2px -3px 0 0.5px;
-}
-.infoCards .infoOne h3 {
-  padding-bottom: 1em;
+  width: 225px;
+  height: 300px;
 }
 .infoCards .infoTwo {
   display: flex;
@@ -147,12 +148,10 @@ main {
   align-items: center;
   background-color: #fdfaf5;
   border: solid 1px black;
-  border-radius: 50px;
-  padding: 15px 5px 15px 5px;
+  border-radius: 20px;
   box-shadow: inset rgba(140, 139, 139, 0.359) -2px -3px 0 0.5px;
-}
-.infoCards .infoTwo h3 {
-  padding-bottom: 1em;
+  width: 225px;
+  height: 300px;
 }
 .infoCards .infoThree {
   display: flex;
@@ -160,12 +159,10 @@ main {
   align-items: center;
   background-color: #fdfaf5;
   border: solid 1px black;
-  border-radius: 50px;
-  padding: 15px 5px 15px 5px;
+  border-radius: 20px;
   box-shadow: inset rgba(140, 139, 139, 0.359) -2px -3px 0 0.5px;
-}
-.infoCards .infoThree h3 {
-  padding-bottom: 1em;
+  width: 225px;
+  height: 300px;
 }
 .infoCards .infoFour {
   display: flex;
@@ -173,12 +170,10 @@ main {
   align-items: center;
   background-color: #fdfaf5;
   border: solid 1px black;
-  border-radius: 50px;
-  padding: 15px 5px 15px 5px;
+  border-radius: 20px;
   box-shadow: inset rgba(140, 139, 139, 0.359) -2px -3px 0 0.5px;
-}
-.infoCards .infoFour h3 {
-  padding-bottom: 1em;
+  width: 225px;
+  height: 300px;
 }
 .infoCards .infoFive {
   display: flex;
@@ -186,12 +181,10 @@ main {
   align-items: center;
   background-color: #fdfaf5;
   border: solid 1px black;
-  border-radius: 50px;
-  padding: 15px 5px 15px 5px;
+  border-radius: 20px;
   box-shadow: inset rgba(140, 139, 139, 0.359) -2px -3px 0 0.5px;
-}
-.infoCards .infoFive h3 {
-  padding-bottom: 1em;
+  width: 225px;
+  height: 300px;
 }
 
 form {
@@ -211,6 +204,14 @@ form ::placeholder {
   color: white;
 }
 
+.Wahl {
+  background-image: url(../img/Background\ Bulb.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  height: 100vh;
+  width: fit-content;
+}
 .Wahl h2 {
   text-align: center;
   justify-items: center;
@@ -239,6 +240,8 @@ form ::placeholder {
   border-radius: 50px;
   padding: 15px 5px 15px 5px;
   box-shadow: inset rgba(140, 139, 139, 0.359) -2px -3px 0 0.5px;
+  width: 250px;
+  height: 320px;
 }
 .Wahl .choseCarCards .CarTwo {
   display: flex;
@@ -249,6 +252,8 @@ form ::placeholder {
   border-radius: 50px;
   padding: 15px 5px 15px 5px;
   box-shadow: inset rgba(140, 139, 139, 0.359) -2px -3px 0 0.5px;
+  width: 250px;
+  height: 320px;
 }
 .Wahl .choseCarCards .CarThree {
   display: flex;
@@ -259,6 +264,8 @@ form ::placeholder {
   border-radius: 50px;
   padding: 15px 5px 15px 5px;
   box-shadow: inset rgba(140, 139, 139, 0.359) -2px -3px 0 0.5px;
+  width: 300px;
+  height: 400px;
 }
 .Wahl .choseCarButtonWhite {
   font-family: "Urbanist Bold";
